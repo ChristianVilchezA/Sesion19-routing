@@ -1,0 +1,10 @@
+<br>
+<div class="product-container" *ngIf="character"> 
+   <p class="name"> <span class="titles"> Name: </span>  {{ character.name }}</p> 
+   <p class="status"> <span class="titles"> Status: </span>  {{ character.status }}</p> 
+   <p class="species"> <span class="titles"> species: </span>  {{ character.species }}</p> 
+   <p class="type"> <span class="titles"> type: </span>  {{ character.type }}</p> 
+   <p class="gender"> <span class="titles"> gender: </span>  {{ character.gender }}</p> 
+   <br>
+  <img [src]="character.image"  alt="product image" width="400" />
+</div>

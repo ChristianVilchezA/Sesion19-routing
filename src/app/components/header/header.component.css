@@ -1,0 +1,7 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #e4a972;
+    padding: 1rem
+}
